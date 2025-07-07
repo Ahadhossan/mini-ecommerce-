@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    @apply bg-[#fff] text-gray-300 font-inter;
+}
+
+@layer utilities {
+    .flex-center {
+        @apply flex items-center;
+    }
+    .flex-center-between {
+        @apply flex items-center justify-between;
+    }
+}
